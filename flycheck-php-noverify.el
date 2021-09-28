@@ -27,7 +27,7 @@
 
 (require 'flycheck)
 
-(defvar default-excluded-checks '("undefinedConstant" "undefinedClass" "undefinedFunction" "undefinedMethod" "undefinedProperty" "undefinedTrait"))
+(defvar default-excluded-checks '("undefinedConstant" "undefinedClass" "undefinedFunction" "undefinedMethod" "undefinedProperty" "undefinedTrait" "unused"))
 
 (flycheck-def-option-var flycheck-php-noverify-exclude-checks default-excluded-checks php-noverify
   "list of check names to be excluded"
