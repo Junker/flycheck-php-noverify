@@ -27,9 +27,9 @@
 
 (require 'flycheck)
 
-(defvar default-excluded-checks '("undefinedConstant" "undefinedClass" "undefinedFunction" "undefinedMethod" "undefinedProperty" "undefinedTrait" "unused"))
+(defconst flycheck-php-noverify--default-excluded-checks '("undefinedConstant" "undefinedClass" "undefinedFunction" "undefinedMethod" "undefinedProperty" "undefinedTrait" "unused"))
 
-(flycheck-def-option-var flycheck-php-noverify-exclude-checks default-excluded-checks php-noverify
+(flycheck-def-option-var flycheck-php-noverify-exclude-checks flycheck-php-noverify--default-excluded-checks php-noverify
   "list of check names to be excluded"
   :type '(repeat :tag "Checks" (string :tag "Check name"))
   :safe #'flycheck-string-list-p)
@@ -74,3 +74,5 @@
   (add-to-list 'flycheck-checkers 'php-noverify))
 
 (provide 'flycheck-php-noverify)
+
+;;; flycheck-php-noverify.el ends here
