@@ -25,7 +25,7 @@ For `use-package` user:
 ;; Excluded checks. 
 ;; default: '("undefinedConstant" "undefinedClass" "undefinedFunction" 
 ;;            "undefinedMethod" "undefinedProperty" "undefinedTrait")
-(setq flycheck-php-noverify-exclude-checks '("unused" "constCase"))
+(add-to-list 'flycheck-php-noverify-exclude-checks "constCase")
 ;; Allowed checks. default: nil
 (setq flycheck-php-noverify-allow-checks '("unused"))
 ;; Analyze as PHP 7. default: nil
