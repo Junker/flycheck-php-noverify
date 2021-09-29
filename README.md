@@ -32,3 +32,4 @@ For `use-package` user:
 (setq flycheck-php-noverify-php7 t)
 ;; additional 'noverify' args
 (setq flycheck-php-noverify-args '("--cores" "4"))
+```
