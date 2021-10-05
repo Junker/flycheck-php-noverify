@@ -1,7 +1,7 @@
 ;;; flycheck-php-noverify.el --- Flycheck checker for PHP Noverify linter
 
 ;; Version: 0.1.0
-;; URL: https://github.com/Junker/flycheck-php-noverify0
+;; URL: https://github.com/Junker/flycheck-php-noverify
 ;; Package-Requires: ((flycheck "0.22"))
 
 ;; This file is free software; you can redistribute it and/or modify
