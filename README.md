@@ -1,6 +1,14 @@
 # Flycheck checker for PHP using [Noverify](https://github.com/VKCOM/noverify) linter
 
+[![MELPA](https://melpa.org/packages/flycheck-php-noverify-badge.svg)](https://melpa.org/#/flycheck-php-noverify)
+
+Fast PHP linter for Flycheck.
+
 Noverify - Pretty fast linter (code static analysis utility) for PHP
+
+## Requirements
+
+Installed [NoVerify](https://github.com/VKCOM/noverify) linter.
 
 ## Installation
 
